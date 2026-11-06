@@ -1,0 +1,18 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Training/inference outputs and local data
+outputs/
+runs/
+wandb/
+*.parquet

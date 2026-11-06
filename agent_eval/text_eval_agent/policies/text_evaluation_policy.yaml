@@ -1,0 +1,17 @@
+{
+  "version": "text-policy-v2.2",
+  "light_naturalness": "Minor",
+  "small_semantic_shift": "Minor",
+  "counting_unit": "affected_fragment",
+  "score_formatting": false,
+  "score_metadata": false,
+  "non_scored_error_types": [
+    "punctuation_error",
+    "capitalization_error",
+    "spacing_error",
+    "formatting_error",
+    "markup_error",
+    "metadata_error",
+    "speaker_tag_error"
+  ]
+}

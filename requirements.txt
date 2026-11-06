@@ -1,0 +1,14 @@
+# Python 3.10+ recommended
+torch>=2.1
+transformers>=4.45
+accelerate>=0.30
+vllm>=0.6
+numpy>=1.24
+opencv-python>=4.8
+pillow>=10.0
+safetensors>=0.4
+pandas>=2.0
+pyarrow>=12.0
+requests>=2.31
+tqdm>=4.66
+# Agent evaluation uses the provider SDK/client configured by the user.

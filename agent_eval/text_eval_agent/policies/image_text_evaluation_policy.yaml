@@ -1,0 +1,25 @@
+policy_version: image-text-policy-v1.2
+image_order:
+  - source_image
+  - translated_image
+pairing:
+  confidence_threshold: 0.80
+  max_unexplained_block_ratio: 2.0
+assembly:
+  allowed_join_operations:
+    - none
+    - space
+    - newline
+    - paragraph
+scoring:
+  pairing_uncertainty_is_scored: false
+coverage_guard:
+  min_clear_unmatched_blocks: 5
+  min_unmatched_block_ratio: 0.70
+  min_unmatched_character_ratio: 0.70
+  max_target_to_source_block_ratio: 0.40
+  min_primary_text_characters: 80
+  direct_critical_requires_all_gates: true
+  merge_contiguous_missing_regions: true
+runtime:
+  temperature: 0.0

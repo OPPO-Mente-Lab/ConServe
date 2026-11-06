@@ -1,0 +1,11 @@
+{
+  "text_runtime": {
+    "provider": "signed_api",
+    "base_url": "https://api.example.invalid/v1",
+    "ak_env": "MODEL_SERVICE_AK",
+    "sk_env": "MODEL_SERVICE_SK",
+    "default_model": "your-model-id",
+    "timeout_seconds": 60,
+    "temperature": 0.0
+  }
+}
